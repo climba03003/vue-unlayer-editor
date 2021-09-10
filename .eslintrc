@@ -1,0 +1,13 @@
+{
+  "root": true,
+  "env": {
+    "node": true
+  },
+  "extends": ["plugin:vue/vue3-essential", "@vue/standard", "prettier", "prettier/vue", "plugin:prettier/recommended", "@vue/typescript"],
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "parser": "@typescript-eslint/parser"
+  },
+  "plugins": ["prettier"],
+  "rules": {}
+}

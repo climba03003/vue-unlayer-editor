@@ -1,0 +1,63 @@
+{
+  "name": "vue-unlayer-editor",
+  "version": "0.1.0",
+  "main": "./dist/unlayer-editor.umd.js",
+  "module": "./dist/unlayer-editor.es.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/unlayer-editor.es.js",
+      "require": "./dist/unlayer-editor.umd.js"
+    }
+  },
+  "files": [
+    "dist",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/climba03003/vue-unlayer-editor.git"
+  },
+  "author": "KaKa",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@vueuse/core": "^6.0.0",
+    "vue": "^3.2.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.29.3",
+    "@typescript-eslint/parser": "^4.29.3",
+    "@vitejs/plugin-vue": "^1.6.0",
+    "@vue/compiler-sfc": "^3.2.6",
+    "@vue/eslint-config-standard": "^6.1.0",
+    "@vue/eslint-config-typescript": "^7.0.0",
+    "autoprefixer": "^10.3.3",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.4.1",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-standard": "^5.0.0",
+    "eslint-plugin-vue": "^7.17.0",
+    "fibers": "^5.0.0",
+    "postcss": "^8.3.6",
+    "sass": "^1.38.1",
+    "sass-loader": "^12.1.0",
+    "tailwindcss": "^2.2.7",
+    "typescript": "^4.4.2",
+    "vite": "^2.5.1",
+    "vite-plugin-components": "^0.13.2",
+    "vite-plugin-icons": "^0.6.5",
+    "vite-plugin-pages": "^0.17.5",
+    "vite-plugin-vue-layouts": "^0.3.1",
+    "vue-router": "^4.0.9"
+  }
+}
